@@ -1,1 +1,1 @@
-
+1. Line 12 will print "prices.length" (length of the array of prices) - 1. This is because that's the highest that "i" will go in the for loop. Additionally, the "i" will remain the same because it was declared by "var" and variables declared with "var" are accessible in the same function (the print statement in line 12 and the declaration of "i" are in the same function).
