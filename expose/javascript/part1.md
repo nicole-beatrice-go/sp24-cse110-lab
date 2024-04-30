@@ -1,1 +1,6 @@
-
+1. Line 9 will print "values added: " followed by the result of adding "num1" and "num2". This is because "values added: " was the text in the print command and because it is okay  that "result" was reassigned to the sum after it was initially declared as 0. This is because line 5 with the "var" declaring result to 0 would be considered at the top. It would only then be reassigned after (and it's fine that line 7 reassigning "result" to the sum doesn't have the "var" keyword in it) and will remain as the sum of "num1" and "num2".
+2. Line 13 will print "final result: " followed by the result of adding "num1" and "num2". The result will be the same as what we got in part 1. This is because "var" is function-scoped so there will be no error since we are able to access "result" in the same function. It doesn't matter that it's out of the "if" block.
+3. Line 9 will print "values added: " followed by the result of adding "num1" and "num2".
+4. Line 13 will throw an error because it is trying to access a "let" variable outside of the "if" block that it was declared in. This isn't possible with any variables declared using the "let" keyword.
+5. Line 9 will print "values added: " followed by a 0. This is because variables declared with the "const" keyword cannot be changed.
+6. Line 13 will throw an error because it is trying to access a "const" variable outside of the "if" block that it was declared in. This isn't possible with any variables declared using the "const" keyword.
