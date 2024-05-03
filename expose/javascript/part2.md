@@ -9,3 +9,7 @@
 9.  Line 12 would be the same as question 5 and should still print `prices.length` (length of the array of prices) - 1. This is because `i` is still defined using `let`.
 10.  Line 13 should print `prices.length`, the length of the `prices` array. In this case, it would be 3 because the length of the input `[100,200,300]` is 3. This is because the `length` of defined as `prices.length` in the beginning. It didn't have any changes but even so, it's defined as `const` so it would remain 3 after declared as that (the value couldn't be changed).
 11.  The function would return `[]` because it's defined as `const` so it can't be changed. 
+12a. student.name
+12b. student["Grad Year"]
+12c. student.greet()
+12d. 
