@@ -8,8 +8,16 @@
 8.  The function will just return an empty array `[]`. This is for the same reason as in question 7. `discounted` only has the discounted prices pushed onto it within the `if` block. These changes aren't accessible since let` declared videos are only accessible in the same block so we use the declaration of `discounted` that was made in the same block and defined to be `[]` in line 3.
 9.  Line 12 would be the same as question 5 and should still print `prices.length` (length of the array of prices) - 1. This is because `i` is still defined using `let`.
 10.  Line 13 should print `prices.length`, the length of the `prices` array. In this case, it would be 3 because the length of the input `[100,200,300]` is 3. This is because the `length` of defined as `prices.length` in the beginning. It didn't have any changes but even so, it's defined as `const` so it would remain 3 after declared as that (the value couldn't be changed).
-11.  The function would return `[]` because it's defined as `const` so it can't be changed. 
+11.  The function would return `[]` because it's defined as `const` so it can't be changed.
+    <br />
 12a. student.name
+<br />
 12b. student["Grad Year"]
+<br />
 12c. student.greet()
-12d. 
+<br />
+12d. student["Favorite Teacher"]
+<br />
+12e. student.courseLoad
+<br />
+13. 
