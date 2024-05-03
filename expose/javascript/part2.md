@@ -43,3 +43,9 @@
 14c. True because the second '2' would be turned to a number and it is true that 2 is equal to 2.
 <br />
 14d. False because they have different types and === considers that
+<br />
+14e. False because even after the true is turned into a 1, 1 does not equal to 2
+<br />
+14f. False because 2 cannot be converted into a Boolean since a Boolean is either 1 (true) or 0 (false). They'd have different types so it would be false
+<br />
+15. == converts them so that they're the same type and then checks if they're equal so it doesn't matter if they're different types (they can still be == if they are different types as long as they're equal after the type conversion). === checks if they are the same type and if so, also checks if they are equal. So if they are different types, === returns false.
