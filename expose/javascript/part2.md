@@ -9,7 +9,7 @@
 9.  Line 12 would be the same as question 5 and should still print `prices.length` (length of the array of prices) - 1. This is because `i` is still defined using `let`.
 10.  Line 13 should print `prices.length`, the length of the `prices` array. In this case, it would be 3 because the length of the input `[100,200,300]` is 3. This is because the `length` of defined as `prices.length` in the beginning. It didn't have any changes but even so, it's defined as `const` so it would remain 3 after declared as that (the value couldn't be changed).
 11.  The function would return `[]` because it's defined as `const` so it can't be changed.
-    <br />
+<br />
 12a. student.name
 <br />
 12b. student["Grad Year"]
@@ -20,4 +20,26 @@
 <br />
 12e. student.courseLoad
 <br />
-13. 
+13a. '32' because the + can handle concatenating strings and converts the 2 to a string since the '3' is a string
+<br />
+13b. 1 because the - operator needs numbers so it would convert the '3' to a number
+<br />
+13c. 3 because the null would be converted to 0 for the + operator
+<br />
+13d. '3null' because the null would be converted into a string since the '3' was a string
+<br />
+13e. 4 because the true would be converted to 1 for the + operator
+<br />
+13f. 0 because false and null would be interpreted as 0 as number for the + operator
+<br />
+13g. '3undefined' because the undefined would become a string to concatenate with the string '3'
+<br />
+13h. Would have an error because undefined cannot be converted into a number for the - operator (NaN).
+<br />
+14a. True because the '2' would be converted into a number and 2 > 1 is true
+<br />
+14b. True because it would be treated "alphabetically" since they are strings and "2" is further in the numbers as the first digit compared to the "1" in "12"
+<br />
+14c. True because the second '2' would be turned to a number and it is true that 2 is equal to 2.
+<br />
+14d. False because they have different types and === considers that
