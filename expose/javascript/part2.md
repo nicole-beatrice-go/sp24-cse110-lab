@@ -49,3 +49,7 @@
 14f. False because 2 cannot be converted into a Boolean since a Boolean is either 1 (true) or 0 (false). They'd have different types so it would be false
 <br />
 15. == converts them so that they're the same type and then checks if they're equal so it doesn't matter if they're different types (they can still be == if they are different types as long as they're equal after the type conversion). === checks if they are the same type and if so, also checks if they are equal. So if they are different types, === returns false.
+<br />
+17. The result would be `[2,4,6]` because `modifyArray` takes in the input array `[1,2,3]` and applies the function `doSomething` to each number, which would multiply each element by 2. This results in `[2,4,6]`.
+<br />
+19. The code would print 1 immediately, then print 2 after 1 second (1000 milliseconds), then print 3 immediately (0 seconds), then print 4 immediately. 
